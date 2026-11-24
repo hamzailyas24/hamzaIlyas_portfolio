@@ -1032,6 +1032,22 @@
       min-width: 0
     }
 
+    .logo-tile {
+      display: inline-flex;
+      align-items: center;
+      background: #0a0a0a;
+      border: 1px solid #2a2a2a;
+      border-radius: 14px;
+      padding: 14px 22px;
+      margin: 0 0 22px
+    }
+
+    .logo-tile img {
+      display: block;
+      height: clamp(44px, 7vw, 64px);
+      width: auto
+    }
+
     .work-in .apps-lab {
       margin-top: clamp(40px, 6vw, 72px)
     }
@@ -1397,6 +1413,9 @@
         <div class="work-in">
           <div class="sublab rv">Featured project</div>
           <article class="proj rv">
+            <a class="logo-tile" href="https://www.islandgoride.com/" target="_blank" rel="noopener"
+              aria-label="IslandGo - Tour &amp; Transportation"><img src="apps/islandgo-logo.png"
+                alt="IslandGo Tour &amp; Transportation logo" height="64"></a>
             <div class="proj-h">
               <div>
                 <h3>IslandGo</h3>
@@ -1596,7 +1615,7 @@
         <div class="jobs">
           <article class="job rv">
             <div class="job-h">
-              <h3>Senior Software Engineer</h3><span class="meta">Jan 2026 - Present</span>
+              <h3>Software Engineer (React.js / React Native)</h3><span class="meta">Jan 2026 - Present</span>
             </div>
             <p class="co">Avant Cyberspace Ltd. <span class="meta">&middot; Remote</span></p>
             <ul>
